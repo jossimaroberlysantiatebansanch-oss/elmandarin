@@ -91,7 +91,6 @@ function pintarLocal() {
     <p><strong>Teléfono:</strong> <a href="tel:+${local.whatsapp}">${local.telefono}</a></p>
     <p class="pista">¿Quieres ir a nuestro local? Presiona aquí 👇</p>
     <a class="boton-mapa" href="${mapa}" target="_blank" rel="noopener">Cómo llegar</a>`;
-    <a class="boton-mapa" href="${mapa}" target="_blank" rel="noopener">Cómo llegar</a>`;
   const wa = document.getElementById("wa");
   wa.href = "https://wa.me/" + local.whatsapp + "?text=" + encodeURIComponent("Hola, quisiera hacer una consulta.");
   wa.innerHTML = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="#fff" d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2z"/></svg><span>WhatsApp</span>`;
