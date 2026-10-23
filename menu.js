@@ -127,7 +127,7 @@ const categorias = [
 // DATOS DEL LOCAL (de ejemplo: cámbialos por los reales del cliente)
 const local = {
   nombre: "El Mandarín",
-  direccion: "Av. Zarumilla 095, Chiclayo 14011",
+  direccion: "Av. Zarumilla 095, Chiclayo",
   horario: "Todos los días, de 12:00 p. m. a 11:00 p. m.",
   telefono: "920 132 097",         
   whatsapp: "51920132097"          
