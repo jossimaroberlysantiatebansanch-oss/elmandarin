@@ -89,7 +89,7 @@ function pintarLocal() {
     <p><strong>Dirección:</strong> ${local.direccion}</p>
     <p><strong>Horario:</strong> ${local.horario}</p>
     <p><strong>Teléfono:</strong> <a href="tel:+${local.whatsapp}">${local.telefono}</a></p>
-        <p class="pista">¿Quieres ir a nuestro local? Presiona aquí 👇</p>
+    <p class="pista">¿Quieres ir a nuestro local? Presiona aquí 👇</p>
     <a class="boton-mapa" href="${mapa}" target="_blank" rel="noopener">Cómo llegar</a>`;
     <a class="boton-mapa" href="${mapa}" target="_blank" rel="noopener">Cómo llegar</a>`;
   const wa = document.getElementById("wa");
