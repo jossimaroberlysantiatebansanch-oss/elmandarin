@@ -10,7 +10,7 @@ function pintarMenu() {
     <div class="menu-wrap">
       <h2>${menu.nombre}</h2>
       <div class="menu-dia">
-        <h3>Entradas (a elegir)</h3>
+        <h3>Entradas</h3>
         <ul>${menu.entradas.map(e => `<li><span>${e}</span></li>`).join("")}</ul>
         <h3>Fondos</h3>
         <ul>${menu.fondos.map(f =>
